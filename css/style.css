@@ -9,6 +9,9 @@
     border: 3px solid red;
 }
 
+.row {
+    border: 3px solid blue;
+}
 header {
     min-height: 80px;
 }
