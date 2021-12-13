@@ -1,7 +1,7 @@
 
  /* SOLO  PER LAYOUT */
 /* DA CANCELLARE */
-.container {
+/* .container {
     border: 3px solid black;
 }
 
@@ -23,4 +23,15 @@ section {
 [class^='col'] {
     border: 2px solid orange;
     min-height: 50px;
+} */
+
+/* background */
+
+.bg-black {
+    background-color: black;
+}
+
+#sony-logo {
+    max-width: 80px;
+    height: auto;
 }
