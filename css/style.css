@@ -1,0 +1,23 @@
+
+ /* SOLO  PER LAYOUT */
+/* DA CANCELLARE */
+.container {
+    border: 3px solid black;
+}
+
+.container-fluid {
+    border: 3px solid red;
+}
+
+header {
+    min-height: 80px;
+}
+
+section {
+    min-height: 300px;
+}
+
+[class^='col'] {
+    border: 2px solid orange;
+    min-height: 50px;
+}
