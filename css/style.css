@@ -25,13 +25,38 @@ section {
     min-height: 50px;
 } */
 
+
+
+/* Body */
+
+body {
+    padding-top: 120px;
+}
+
 /* background */
 
 .bg-black {
     background-color: black;
 }
 
-#sony-logo {
-    max-width: 80px;
-    height: auto;
+.bg-orange {
+    background-color: #CD3D0F;
+}
+
+
+/* Header */
+
+.header-top {
+    height: 40px;
+}
+
+.header-bottom {
+    height:80px;
+}
+
+/* Featured */
+
+#featured .jumbotron-fluid {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
 }
