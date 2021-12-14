@@ -43,6 +43,9 @@ body {
     background-color: #CD3D0F;
 }
 
+.bg-blue {
+    background-color: #2D64E6;
+}
 
 /* Header */
 
@@ -64,3 +67,4 @@ body {
 #featured img {
     border-radius: 20px;
 }
+
