@@ -60,3 +60,7 @@ body {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
 }
+
+#featured img {
+    border-radius: 20px;
+}
