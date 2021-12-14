@@ -68,7 +68,8 @@ body {
     background-size: cover;
 }
 
-#featured img {
+/* questo selettore può essere fatto meglio */
+#featured img, #new-releases-gallery img {
     border-radius: 20px;
 }
 
