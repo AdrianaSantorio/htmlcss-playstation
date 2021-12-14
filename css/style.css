@@ -47,6 +47,10 @@ body {
     background-color: #2D64E6;
 }
 
+.bg-d-gray {
+    background-color: #1F1F1F;
+}
+
 /* Header */
 
 .header-top {
@@ -68,3 +72,9 @@ body {
     border-radius: 20px;
 }
 
+/* New-releases */
+
+#new-releases .jumbotron-fluid {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
