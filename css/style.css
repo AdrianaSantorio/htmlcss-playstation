@@ -63,13 +63,13 @@ body {
 
 /* Featured */
 
-#featured .jumbotron-fluid {
+#featured-games .jumbotron-fluid {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
 }
 
 /* questo selettore può essere fatto meglio */
-#featured img, #new-releases-gallery img {
+#featured-games img, #new-releases-gallery img {
     border-radius: 20px;
 }
 
