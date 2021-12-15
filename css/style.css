@@ -2,11 +2,11 @@
 /* generals */
 
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 body {
-    padding-top: 110px;
+    padding-top: 106px;
 }
 
 /* utilities */
@@ -18,6 +18,10 @@ body {
 }
 
 /* Font-weight */
+
+.fw-500 {
+    font-weight: 500;
+}
 
 .fw-600 {
     font-weight: 600;
@@ -83,7 +87,7 @@ body {
 }
 
 .header-bottom {
-    height:80px;
+    height:76px;
 }
 
 /* MAIN */
