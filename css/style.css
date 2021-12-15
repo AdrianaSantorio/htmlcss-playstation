@@ -51,6 +51,20 @@ body {
     background-color: #1F1F1F;
 }
 
+.bg-gray {
+    background-color: #BEBCBB;
+}
+
+.bg-l-gray {
+    background-color: #D9DADC;;
+}
+
+/* text color */
+
+.text-blue {
+    color: #2D64E6;
+}
+
 /* Header */
 
 .header-top {
