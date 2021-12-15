@@ -5,12 +5,9 @@ h2 {
     font-size: 2em;
 }
 
-/* Body */
-
 body {
     padding-top: 110px;
 }
-
 
 /* utilities */
 
@@ -19,6 +16,13 @@ body {
 .w-60 {
     width: 60%;
 }
+
+/* Font-weight */
+
+.fw-600 {
+    font-weight: 600;
+}
+
 /* background  color*/
 
 .bg-black {
@@ -65,6 +69,8 @@ body {
     width: 20%;
 }
 
+/* Body */
+
 /* Header */
 
 #sony-logo {
@@ -80,6 +86,8 @@ body {
     height:80px;
 }
 
+/* MAIN */
+
 /* Jumbotron */
 
 .jumbotron-fluid {
@@ -88,19 +96,24 @@ body {
     background-position:top center;
 }
 
+/* New-releases */
 #new-releases .jumbotron-fluid {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+/* Featured */
 #featured-games .jumbotron-fluid {
     background-image: url(../img/jumbo-bg.png);
     padding-top: 200px;
 }
 
-/* questo selettore può essere fatto meglio */
 #featured-games img, #new-releases-gallery img {
     border-radius: 20px;
 }
 
-/* New-releases */
+/* Footer */
+
+footer p {
+    font-size: small;
+}
 
