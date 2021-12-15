@@ -33,7 +33,7 @@ body {
     padding-top: 120px;
 }
 
-/* background */
+/* background  color*/
 
 .bg-black {
     background-color: black;
@@ -81,19 +81,34 @@ body {
 
 /* Header */
 
+#sony-logo {
+    height: 15px;
+    width: auto;
+}
+
 .header-top {
-    height: 40px;
+    height: 30px;
 }
 
 .header-bottom {
     height:80px;
 }
 
-/* Featured */
+/* Jumbotron */
+
+.jumbotron-fluid {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top center;
+}
+
+#new-releases .jumbotron-fluid {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 
 #featured-games .jumbotron-fluid {
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
+    padding-top: 150px;
 }
 
 /* questo selettore può essere fatto meglio */
@@ -103,7 +118,3 @@ body {
 
 /* New-releases */
 
-#new-releases .jumbotron-fluid {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-}
