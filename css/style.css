@@ -1,31 +1,9 @@
 
- /* SOLO  PER LAYOUT */
-/* DA CANCELLARE */
-/* .container {
-    border: 3px solid black;
+/* generals */
+
+h2 {
+    font-size: 2em;
 }
-
-.container-fluid {
-    border: 3px solid red;
-}
-
-.row {
-    border: 3px solid blue;
-}
-header {
-    min-height: 80px;
-}
-
-section {
-    min-height: 300px;
-}
-
-[class^='col'] {
-    border: 2px solid orange;
-    min-height: 50px;
-} */
-
-
 
 /* Body */
 
@@ -33,6 +11,14 @@ body {
     padding-top: 110px;
 }
 
+
+/* utilities */
+
+/* width */
+
+.w-60 {
+    width: 60%;
+}
 /* background  color*/
 
 .bg-black {
@@ -108,7 +94,7 @@ body {
 
 #featured-games .jumbotron-fluid {
     background-image: url(../img/jumbo-bg.png);
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 /* questo selettore può essere fatto meglio */
