@@ -18,3 +18,11 @@
 #ps5-accessories img:hover {
     opacity: 100%;
 }
+
+#ps5-accessories .card:active::after {
+    content: '';
+    display: block;
+    height:3px;
+    background-color:dodgerblue;
+    border-radius: 1px;
+}
