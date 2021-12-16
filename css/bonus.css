@@ -8,4 +8,13 @@
     transform: translateY(-20px);
 }
 
- 
+/* PS5 */
+
+#ps5-accessories img {
+    opacity: 60%;
+    transition: opacity 0.5s;
+}
+
+#ps5-accessories img:hover {
+    opacity: 100%;
+}
