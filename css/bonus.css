@@ -1,0 +1,11 @@
+/* featured */
+
+#featured-games-gallery img {
+    transition: transform 1.5s;
+}
+
+#featured-games-gallery img:hover {
+    transform: translateY(-20px);
+}
+
+ 
